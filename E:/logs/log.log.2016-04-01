@@ -1,0 +1,322 @@
+2016-04-01 14:45:24  [ main:0 ] - [ INFO ]  ????
+2016-04-01 14:45:24  [ main:33 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 14:45:24  [ main:33 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 14:45:24  [ main:34 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 14:45:24  [ main:36 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 14:45:24  [ main:36 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 14:45:24  [ main:36 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 14:45:24  [ main:37 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 14:45:24  [ main:38 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 14:45:24  [ main:38 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 14:45:24  [ main:38 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 14:45:24  [ main:41 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 14:45:24  [ main:45 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 14:45:24  [ main-SendThread(localhost:2181):66 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 14:45:24  [ main-SendThread(localhost:2181):73 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 14:45:24  [ main-SendThread(localhost:2181):74 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 14:45:24  [ main-SendThread(localhost:2181):89 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add000e, negotiated timeout = 5000
+2016-04-01 14:45:24  [ main-EventThread:93 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 14:45:24  [ main-SendThread(localhost:2181):96 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add000e, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34835,0  request:: '/USER,F  response:: v{} 
+2016-04-01 14:45:24  [ main:97 ] - [ INFO ]  find User namedzcc
+2016-04-01 14:46:46  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 14:46:46  [ main:4 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 14:46:46  [ main:4 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 14:46:46  [ main:5 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 14:46:46  [ main:7 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 14:46:46  [ main:7 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 14:46:46  [ main:8 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 14:46:46  [ main:8 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 14:46:46  [ main:8 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 14:46:46  [ main:8 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 14:46:46  [ main:8 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 14:46:46  [ main:9 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 14:46:46  [ main:9 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 14:46:46  [ main:9 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 14:46:46  [ main:9 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 14:46:46  [ main:10 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 14:46:46  [ main:16 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 14:46:46  [ main-SendThread(localhost:2181):37 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 14:46:46  [ main-SendThread(localhost:2181):43 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 14:46:46  [ main-SendThread(localhost:2181):45 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 14:46:46  [ main-SendThread(localhost:2181):64 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add000f, negotiated timeout = 5000
+2016-04-01 14:46:46  [ main-EventThread:66 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 14:46:46  [ main-SendThread(localhost:2181):69 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add000f, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34837,0  request:: '/USER,F  response:: v{} 
+2016-04-01 14:46:46  [ main:70 ] - [ INFO ]  find User namedzcc
+2016-04-01 15:24:15  [ main:0 ] - [ ERROR ]  123:QL0AFWMIX8NRZTKeof9cXsvbvu8=
+2016-04-01 15:25:06  [ main:0 ] - [ ERROR ]  zcc:OLLa3w/7L6OIiHdombeOjanlsik=
+2016-04-01 15:31:00  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 15:31:00  [ main:2 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 15:31:00  [ main:3 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 15:31:00  [ main:3 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 15:31:00  [ main:5 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 15:31:00  [ main:6 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 15:31:00  [ main:7 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 15:31:00  [ main:7 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 15:31:00  [ main:7 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 15:31:00  [ main:7 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 15:31:00  [ main:8 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 15:31:00  [ main:14 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 15:31:00  [ main-SendThread(localhost:2181):35 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:31:00  [ main-SendThread(localhost:2181):43 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:31:00  [ main-SendThread(localhost:2181):44 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:31:00  [ main-SendThread(localhost:2181):60 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0010, negotiated timeout = 5000
+2016-04-01 15:31:00  [ main-EventThread:63 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 15:31:00  [ main-SendThread(localhost:2181):67 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0010, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34843,-102  request:: '/USER,F  response:: v{} 
+2016-04-01 15:32:41  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 15:32:41  [ main:3 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 15:32:41  [ main:3 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 15:32:41  [ main:3 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 15:32:41  [ main:6 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 15:32:41  [ main:6 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 15:32:41  [ main:6 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 15:32:41  [ main:6 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 15:32:41  [ main:7 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 15:32:41  [ main:8 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 15:32:41  [ main:9 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 15:32:41  [ main:15 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):37 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):45 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):46 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):60 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0011, negotiated timeout = 5000
+2016-04-01 15:32:41  [ main-EventThread:63 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):66 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0011
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):66 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0011
+2016-04-01 15:32:41  [ main-SendThread(localhost:2181):70 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0011, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34845,0  request:: '/USER,F  response:: v{} 
+2016-04-01 15:32:41  [ main:71 ] - [ INFO ]  find User namedzcc
+2016-04-01 15:47:31  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 15:47:31  [ main:3 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 15:47:31  [ main:3 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 15:47:31  [ main:3 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 15:47:31  [ main:6 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 15:47:31  [ main:6 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 15:47:31  [ main:6 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 15:47:31  [ main:6 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 15:47:31  [ main:7 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 15:47:31  [ main:8 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 15:47:31  [ main:9 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 15:47:31  [ main:15 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):38 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):45 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):46 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):59 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0013, negotiated timeout = 5000
+2016-04-01 15:47:31  [ main-EventThread:62 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):64 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0013
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):65 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0013
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):69 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0013, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34855,0  request:: '/USER,F  response:: v{'test1} 
+2016-04-01 15:47:31  [ main:70 ] - [ INFO ]  find User namedzcc
+2016-04-01 15:47:31  [ main-SendThread(localhost:2181):77 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0013, packet:: clientPath:null serverPath:null finished:false header:: 2,12  replyHeader:: 2,34855,-101  request:: '/USER/test,F  response:: v{} 
+2016-04-01 15:47:32  [ main:736 ] - [ INFO ]  Verifying properties
+2016-04-01 15:47:32  [ main:844 ] - [ INFO ]  Property group.id is overridden to topic
+2016-04-01 15:47:32  [ main:844 ] - [ INFO ]  Property zookeeper.connect is overridden to localhost:2181
+2016-04-01 15:47:32  [ main:993 ] - [ INFO ]  [topic_zcc-Inspiron-5521-1459496852888-4fb92dd0], Connecting to zookeeper instance at localhost:2181
+2016-04-01 15:47:32  [ main:1002 ] - [ DEBUG ]  Creating new ZookKeeper instance to connect to localhost:2181.
+2016-04-01 15:47:32  [ main:1003 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1d8c1b8
+2016-04-01 15:47:32  [ ZkClient-EventThread-14-localhost:2181:1002 ] - [ INFO ]  Starting ZkClient event thread.
+2016-04-01 15:47:32  [ main:1004 ] - [ DEBUG ]  Awaiting connection to Zookeeper server
+2016-04-01 15:47:32  [ main-SendThread(localhost:2181):1004 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:47:32  [ main:1004 ] - [ DEBUG ]  Waiting for keeper state SyncConnected
+2016-04-01 15:47:32  [ main-SendThread(localhost:2181):1004 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:47:32  [ main-SendThread(localhost:2181):1004 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:47:32  [ main-SendThread(localhost:2181):1031 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0014, negotiated timeout = 6000
+2016-04-01 15:47:32  [ main-EventThread:1031 ] - [ DEBUG ]  Received event: WatchedEvent state:SyncConnected type:None path:null
+2016-04-01 15:47:32  [ main-EventThread:1032 ] - [ INFO ]  zookeeper state changed (SyncConnected)
+2016-04-01 15:47:32  [ main-EventThread:1032 ] - [ DEBUG ]  Leaving process event
+2016-04-01 15:47:32  [ main:1032 ] - [ DEBUG ]  State is SyncConnected
+2016-04-01 15:47:32  [ main:1040 ] - [ DEBUG ]  Initializing task scheduler.
+2016-04-01 15:47:32  [ main:1042 ] - [ INFO ]  [topic_zcc-Inspiron-5521-1459496852888-4fb92dd0], starting auto committer every 60000 ms
+2016-04-01 15:47:32  [ main:1044 ] - [ DEBUG ]  Scheduling task kafka-consumer-autocommit with initial delay 60000 ms and period 60000 ms.
+2016-04-01 15:49:04  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 15:49:04  [ main:3 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 15:49:04  [ main:3 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 15:49:04  [ main:4 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 15:49:04  [ main:7 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 15:49:04  [ main:7 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 15:49:04  [ main:7 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 15:49:04  [ main:7 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 15:49:04  [ main:7 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 15:49:04  [ main:8 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 15:49:04  [ main:9 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 15:49:04  [ main:16 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):38 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):45 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):46 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):62 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0015, negotiated timeout = 5000
+2016-04-01 15:49:04  [ main-EventThread:65 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):67 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0015
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):69 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0015
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):72 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0015, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34859,0  request:: '/USER,F  response:: v{'test1} 
+2016-04-01 15:49:04  [ main:73 ] - [ INFO ]  find User namedzcc
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):81 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0015, packet:: clientPath:null serverPath:null finished:false header:: 2,12  replyHeader:: 2,34859,0  request:: '/USER/test1,F  response:: v{'zcc},s{34853,34853,1459496748745,1459496748745,0,1,0,0,2,1,34854} 
+2016-04-01 15:49:04  [ main:81 ] - [ INFO ]  zcchas  right to use this topic 
+2016-04-01 15:49:04  [ main:430 ] - [ INFO ]  Verifying properties
+2016-04-01 15:49:04  [ main:468 ] - [ INFO ]  Property metadata.broker.list is overridden to localhost:9092
+2016-04-01 15:49:04  [ main:468 ] - [ INFO ]  Property serializer.class is overridden to kafka.serializer.StringEncoder
+2016-04-01 15:49:04  [ main:469 ] - [ WARN ]  Property zookeeper.connect is not valid
+2016-04-01 15:49:04  [ main:551 ] - [ INFO ]  Verifying properties
+2016-04-01 15:49:04  [ main:551 ] - [ INFO ]  Property group.id is overridden to topic
+2016-04-01 15:49:04  [ main:551 ] - [ INFO ]  Property zookeeper.connect is overridden to localhost:2181
+2016-04-01 15:49:04  [ main:592 ] - [ INFO ]  [topic_zcc-Inspiron-5521-1459496944657-84cf3c6b], Connecting to zookeeper instance at localhost:2181
+2016-04-01 15:49:04  [ main:601 ] - [ DEBUG ]  Creating new ZookKeeper instance to connect to localhost:2181.
+2016-04-01 15:49:04  [ ZkClient-EventThread-14-localhost:2181:601 ] - [ INFO ]  Starting ZkClient event thread.
+2016-04-01 15:49:04  [ main:601 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@1886bfe
+2016-04-01 15:49:04  [ main:602 ] - [ DEBUG ]  Awaiting connection to Zookeeper server
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):602 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 15:49:04  [ main:602 ] - [ DEBUG ]  Waiting for keeper state SyncConnected
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):603 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):603 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 15:49:04  [ main-SendThread(localhost:2181):613 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0016, negotiated timeout = 6000
+2016-04-01 15:49:04  [ main-EventThread:613 ] - [ DEBUG ]  Received event: WatchedEvent state:SyncConnected type:None path:null
+2016-04-01 15:49:04  [ main-EventThread:613 ] - [ INFO ]  zookeeper state changed (SyncConnected)
+2016-04-01 15:49:04  [ main-EventThread:614 ] - [ DEBUG ]  Leaving process event
+2016-04-01 15:49:04  [ main:614 ] - [ DEBUG ]  State is SyncConnected
+2016-04-01 15:49:04  [ main:621 ] - [ DEBUG ]  Initializing task scheduler.
+2016-04-01 15:49:04  [ main:623 ] - [ INFO ]  [topic_zcc-Inspiron-5521-1459496944657-84cf3c6b], starting auto committer every 60000 ms
+2016-04-01 15:49:04  [ main:625 ] - [ DEBUG ]  Scheduling task kafka-consumer-autocommit with initial delay 60000 ms and period 60000 ms.
+2016-04-01 16:31:46  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 16:31:46  [ main:4 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 16:31:46  [ main:4 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 16:31:46  [ main:4 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 16:31:46  [ main:7 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 16:31:46  [ main:7 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 16:31:46  [ main:8 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 16:31:46  [ main:9 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 16:31:46  [ main:9 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 16:31:46  [ main:9 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 16:31:46  [ main:10 ] - [ INFO ]  Initiating client connection, connectString=loaclhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 16:32:04  [ main:17952 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 16:32:04  [ main-SendThread(123.129.254.13:2181):17993 ] - [ INFO ]  Opening socket connection to server 123.129.254.13/123.129.254.13:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 16:32:09  [ main-SendThread(123.129.254.13:2181):22975 ] - [ INFO ]  Client session timed out, have not heard from server in 5002ms for sessionid 0x0, closing socket connection and attempting reconnect
+2016-04-01 16:32:09  [ main-SendThread(123.129.254.13:2181):22978 ] - [ DEBUG ]  Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:129)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.Net.translateException(Net.java:169)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:428)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:809)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:426)
+	... 3 more
+2016-04-01 16:32:09  [ main-SendThread(123.129.254.13:2181):22986 ] - [ DEBUG ]  Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:129)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.Net.translateException(Net.java:169)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:436)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:826)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:434)
+	... 3 more
+2016-04-01 16:33:13  [ main:0 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 16:33:13  [ main:4 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 16:33:13  [ main:4 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 16:33:13  [ main:4 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 16:33:13  [ main:7 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 16:33:13  [ main:7 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 16:33:13  [ main:8 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 16:33:13  [ main:9 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 16:33:13  [ main:9 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 16:33:13  [ main:9 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 16:33:13  [ main:10 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 16:33:13  [ main:16 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):39 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):47 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):49 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):63 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0017, negotiated timeout = 5000
+2016-04-01 16:33:13  [ main-EventThread:66 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):71 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0017, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,34863,0  request:: '/USER,F  response:: s{34808,34808,1459492083598,1459492083598,0,3,1,0,3,1,34853} 
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):78 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0017, packet:: clientPath:null serverPath:null finished:false header:: 2,6  replyHeader:: 2,34863,0  request:: '/USER  response:: v{s{31,s{'digest,'zcc:OLLa3w/7L6OIiHdombeOjanlsik=}}},s{34808,34808,1459492083598,1459492083598,0,3,1,0,3,1,34853} 
+2016-04-01 16:33:13  [ main-SendThread(localhost:2181):117 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0017, packet:: clientPath:null serverPath:null finished:false header:: 3,7  replyHeader:: 3,34864,-102  request:: '/USER,v{s{31,s{'digest,'zcc:OLLa3w/7L6OIiHdombeOjanlsik=}},s{31,s{'digest,'my:MNaHJN1Lvp84wFwaO0oOW8MfxnI=}}},-1  response::  
+2016-04-01 16:37:12  [ main:1 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-04-01 16:37:12  [ main:3 ] - [ INFO ]  Client environment:host.name=zcc-Inspiron-5521
+2016-04-01 16:37:12  [ main:4 ] - [ INFO ]  Client environment:java.version=1.7.0_91
+2016-04-01 16:37:12  [ main:4 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2016-04-01 16:37:12  [ main:6 ] - [ INFO ]  Client environment:java.home=/usr/lib/jvm/java-7-openjdk-i386/jre
+2016-04-01 16:37:12  [ main:6 ] - [ INFO ]  Client environment:java.class.path=/home/zcc/workspace/KafkaSDK/target/classes:/home/zcc/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.2/kafka_2.9.2-0.8.2.2.jar:/home/zcc/.m2/repository/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar:/home/zcc/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar:/home/zcc/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/home/zcc/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/home/zcc/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/home/zcc/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/home/zcc/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/zcc/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/zcc/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/zcc/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/home/zcc/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/home/zcc/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar
+2016-04-01 16:37:12  [ main:7 ] - [ INFO ]  Client environment:java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-04-01 16:37:12  [ main:7 ] - [ INFO ]  Client environment:java.io.tmpdir=/tmp
+2016-04-01 16:37:12  [ main:7 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2016-04-01 16:37:12  [ main:7 ] - [ INFO ]  Client environment:os.name=Linux
+2016-04-01 16:37:12  [ main:7 ] - [ INFO ]  Client environment:os.arch=i386
+2016-04-01 16:37:12  [ main:8 ] - [ INFO ]  Client environment:os.version=3.19.0-25-generic
+2016-04-01 16:37:12  [ main:8 ] - [ INFO ]  Client environment:user.name=zcc
+2016-04-01 16:37:12  [ main:8 ] - [ INFO ]  Client environment:user.home=/home/zcc
+2016-04-01 16:37:12  [ main:8 ] - [ INFO ]  Client environment:user.dir=/home/zcc/workspace/KafkaSDK
+2016-04-01 16:37:12  [ main:9 ] - [ INFO ]  Initiating client connection, connectString=localhost:2181 sessionTimeout=5000 watcher=null
+2016-04-01 16:37:12  [ main:15 ] - [ DEBUG ]  zookeeper.disableAutoWatchReset is false
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):37 ] - [ INFO ]  Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):44 ] - [ INFO ]  Socket connection established to localhost/127.0.0.1:2181, initiating session
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):46 ] - [ DEBUG ]  Session establishment request sent on localhost/127.0.0.1:2181
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):65 ] - [ INFO ]  Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x153d0795add0018, negotiated timeout = 5000
+2016-04-01 16:37:12  [ main-EventThread:69 ] - [ ERROR ]  Error while calling watcher 
+java.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):70 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0018
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):72 ] - [ DEBUG ]  Got auth sessionid:0x153d0795add0018
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):74 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0018, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34866,0  request:: '/USER,F  response:: v{'test1} 
+2016-04-01 16:37:12  [ main:75 ] - [ INFO ]  find User namedzcc
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):79 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0018, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,34866,0  request:: '/USER,F  response:: s{34808,34808,1459492083598,1459492083598,0,3,1,0,3,1,34853} 
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):84 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0018, packet:: clientPath:null serverPath:null finished:false header:: 3,6  replyHeader:: 3,34866,0  request:: '/USER  response:: v{s{31,s{'digest,'zcc:OLLa3w/7L6OIiHdombeOjanlsik=}}},s{34808,34808,1459492083598,1459492083598,0,3,1,0,3,1,34853} 
+2016-04-01 16:37:12  [ main-SendThread(localhost:2181):107 ] - [ DEBUG ]  Reading reply sessionid:0x153d0795add0018, packet:: clientPath:null serverPath:null finished:false header:: 4,7  replyHeader:: 4,34867,0  request:: '/USER,v{s{31,s{'digest,'zcc:OLLa3w/7L6OIiHdombeOjanlsik=}},s{31,s{'digest,'my:MNaHJN1Lvp84wFwaO0oOW8MfxnI=}}},-1  response:: s{34808,34808,1459492083598,1459492083598,0,3,2,0,3,1,34853} 

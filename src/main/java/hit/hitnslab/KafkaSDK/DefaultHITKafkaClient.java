@@ -3,8 +3,10 @@ package hit.hitnslab.KafkaSDK;
 import hit.hitnslab.ConsumerSDK.HITConsumer;
 import hit.hitnslab.ProducerSDK.HITProducer;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.Properties;
 
+import UserControl.KafkaUser;
 import util.ClientMeta;
 import kafka.consumer.Consumer;
 import kafka.javaapi.producer.Producer;
@@ -15,9 +17,9 @@ public class DefaultHITKafkaClient implements HITKafkaClient {
 	    private HITProducer producer;
 	    private HITConsumer consumer;
 	    private ClientMeta clientmeta;
-         public DefaultHITKafkaClient(String topic){
-        	 producer=new HITProducer(topic);
-        	 consumer=new HITConsumer(topic);
+         public DefaultHITKafkaClient(String topic,KafkaUser user) throws NoSuchAlgorithmException{
+        	 producer=new HITProducer(topic,user);
+        	 consumer=new HITConsumer(topic,user);
   }
          public DefaultHITKafkaClient(ClientMeta clientmeta){
         	 Properties properties = new Properties();
